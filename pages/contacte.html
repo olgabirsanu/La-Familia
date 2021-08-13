@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="../css/style.css" />
+    <link href="../images/logo.png" rel="icon" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css />
+    <title>La Familia</title>
+</head>
+
+<body>
+
+    <header>
+        <a href="../index.html">
+            La Familia
+            <i class="fas fa-utensils logo"></i>
+        </a>
+        <i id="menu-btn" class="fas fa-bars" onclick="show()"></i>
+
+    </header>
+
+    <div class="page-container">
+
+        <aside id="side-menu">
+            <a href="../index.html">Acasă</a>
+            <a href="evenimente.html">Meniu</a>
+            <a href="retete.html">Rețete</a>
+            <a href="curiozitati.html">Curiozități</a>
+            <a href="contacte.html">Contacte</a>
+        </aside>
+
+        <main>
+            <h2>Contacte</h2>
+
+            <div class="row">
+
+                <div class="col-50">
+                    <h3>Contactează-ne dacă:</h3>
+
+                    <ul class="contact-list">
+                        <li>Dorești să mănânci gustos și sănătos</li>
+                        <li>Dorești să faci comandă la domiciliu</li>
+                        <li>Dorești să faci parte din echipa noastră</li>
+                        <li>Ai sugestii/ Propuneri</li>
+                    </ul>
+
+                </div>
+
+                <div class="col-50">
+                    <h3>Date de contact</h3>
+
+                    <ul class="contact-data">
+                        <li><b>Adresa: </b> str. Independenței, 17</li>
+                        <li><b>Telefon: </b> 068978564</li>
+                        <li><b>Program de lucru: </b> 10:00-19:00</li>
+
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="row">
+                <div class="col-50">
+                    <iframe class="map"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10753.043725001051!2d28.09775263989333!3d47.640496066989066!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40cb7a64d6c2c2db%3A0x1fdbb32bf2dfbd73!2sStrada%20Independen%C8%9Bei%2017%2C%20S%C3%A2ngerei%2C%20Moldova!5e0!3m2!1sro!2s!4v1628088015590!5m2!1sro!2s"
+                        style="border:0;"  loading="lazy"></iframe>
+
+                </div>
+
+                <div class="col-50">
+                    <div class="contact-form">
+                        <form>
+                            <h3 class="centered">Lasă un mesaj</h3>
+                            <input type="text" placeholder="Nume" required />
+                            <input type="email" placeholder="Email" required />
+                            <textarea rows="3" placeholder="Mesaj" required></textarea>
+                            <input type="submit" value="Transmite" />
+                        </form>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </main>
+
+    </div>
+    <script src="../js/main.js"></script>
+</body>
+
+</html>
